@@ -1,35 +1,54 @@
-# Claude를 위한 스킬 만들기 완전 가이드 (한국어 번역)
+# Skills 공부용 자료 모음
 
-> **The Complete Guide to Building Skills for Claude** 의 **비공식 한국어 번역본**입니다.
+Claude **Agent Skills**를 학습하고 참고하기 위한 자료를 모아둔 저장소입니다.
 
-![표지](covers/00-cover.png)
+---
 
-## 소개
+## 이 저장소에 대해
 
-이 레포지토리는 Anthropic이 발행한 **"The Complete Guide to Building Skills for Claude"** PDF 문서를 한국어로 번역한 마크다운 파일을 포함합니다.
+이 프로젝트는 Skills에 대한 공부하기 위한 자료들을 정리해 두었습니다.
 
+---
 
-## 목차
+## 저장소 구조
 
-| # | 파일 | 내용 |
-|---|------|------|
-| 0 | [소개](chapters/00-소개.md) | 표지, 목차, 소개 |
-| 1 | [기초](chapters/01-기초.md) | 스킬이란, 핵심 설계 원칙, Skills + MCP |
-| 2 | [기획 및 설계](chapters/02-기획-및-설계.md) | 유스케이스 정의, 기술 요구사항, YAML 프론트매터, 지침 작성 |
-| 3 | [테스트와 반복 개선](chapters/03-테스트와-반복-개선.md) | 트리거/기능/성능 테스트, skill-creator, 피드백 기반 개선 |
-| 4 | [배포 및 공유](chapters/04-배포-및-공유.md) | 배포 모델, API 사용, 스킬 포지셔닝 |
-| 5 | [패턴과 문제 해결](chapters/05-패턴과-문제-해결.md) | 5가지 스킬 패턴, 트러블슈팅 가이드 |
-| 6 | [리소스 및 참고자료](chapters/06-리소스-및-참고자료.md) | 공식 문서, 예시 스킬, 도구, 지원 |
-| A | [빠른 체크리스트](chapters/A-빠른-체크리스트.md) | 시작 전 / 개발 중 / 업로드 전후 체크리스트 |
-| B | [YAML 프론트매터](chapters/B-YAML-프론트매터.md) | 필수/선택 필드, 보안 참고사항 |
-| C | [완전한 스킬 예시](chapters/C-완전한-스킬-예시.md) | 프로덕션 레벨 스킬 예시 링크 |
+| 경로 | 설명 |
+|------|------|
+| **`complete-guide-to-building-skills-for-cladue-translate-kr/`** | 「The-Complete-Guide-to-Building-Skill-for-Claude」 **비공식 한국어 번역본** (챕터 0~6, 부록 A·B·C) |
+| **`additional-source/`** | 공식 문서 요약·정리, 아키텍처/컨텍스트 다이어그램 등 **추가 학습 자료** |
+| **`The-Complete-Guide-to-Building-Skill-for-Claude.pdf`** | 원문 PDF (Anthropic) |
 
-## 원본 출처
+---
 
-- **원문**: [The Complete Guide to Building Skills for Claude.pdf](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf) (Anthropic)
-- **공식 스킬 문서**: https://platform.claude.com/docs/ko/agents-and-tools/agent-skills/overview
-- **예시 스킬 레포**: https://github.com/anthropics/skills
+## 빠른 시작
+
+1. **개념부터 익히기**  
+   [`complete-guide-to-building-skills-for-cladue-translate-kr/00-소개.md`](complete-guide-to-building-skills-for-cladue-translate-kr/00-소개.md)와 [01-기초](complete-guide-to-building-skills-for-cladue-translate-kr/01-기초.md)부터 읽어보세요.
+
+2. **실제로 스킬 만들기**  
+   같은 폴더의 [02-기획-및-설계](complete-guide-to-building-skills-for-cladue-translate-kr/02-기획-및-설계.md) → [03-테스트와-반복-개선](complete-guide-to-building-skills-for-cladue-translate-kr/03-테스트와-반복-개선.md) → [04-배포-및-공유](complete-guide-to-building-skills-for-cladue-translate-kr/04-배포-및-공유.md) 순서로 진행하면 됩니다.
+
+3. **추가 참고**  
+   [`additional-source/agent-skills-in-claude-api-docs.md`](additional-source/agent-skills-in-claude-api-docs.md)에서 API·플랫폼 문서 관점의 정리와 다이어그램을 볼 수 있습니다.
+
+---
+
+## 공식 자료 링크
+
+- **Equipping agents for the real world with Agent Skills** (블로그)  
+  https://claude.com/blog/equipping-agents-for-the-real-world-with-agent-skills  
+
+- **Agent Skills 개요** (개발자 문서)  
+  https://platform.claude.com/docs/ko/agents-and-tools/agent-skills/overview  
+
+- **Agent Skills Cookbook**  
+  https://platform.claude.com/cookbook/skills-notebooks-01-skills-introduction  
+
+- **예시 스킬 레포지토리**  
+  https://github.com/anthropics/skills  
+
+---
 
 ## 라이선스
 
-이 번역본은 개인적인 교육 목적으로 제작되었습니다. 원본 저작권은 [Anthropic](https://www.anthropic.com/)에 있습니다.
+번역 및 정리 자료는 학습·참고 목적으로 제작되었습니다. 원문 및 이미지의 저작권은 [Anthropic](https://www.anthropic.com/)에 있습니다.

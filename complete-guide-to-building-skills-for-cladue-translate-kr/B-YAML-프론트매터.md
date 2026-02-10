@@ -38,3 +38,9 @@ metadata: # 선택: 커스텀 필드
 - YAML 내 코드 실행 (안전한 YAML 파싱을 사용)
 - "claude" 또는 "anthropic" 접두사가 포함된 스킬명 (예약어)
 
+---
+> 원문: [**Anthropic - The Complete Guide to Building Skills for Claude.pdf**](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf) from https://claude.com/blog/complete-guide-to-building-skills-for-claude
+>
+> 이 문서는 원문 PDF의 **한국어로 번역**한 것입니다.  원문 및 이미지의 저작권은 [Anthropic](https://www.anthropic.com/)에 있습니다. 
+> 
+> 번역에는 Claude Opus 4.6, ChatGPT 5.2 을 사용했습니다.
